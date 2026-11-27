@@ -1,0 +1,26 @@
+{
+  "config_entries": {
+    "quality": {
+      "label": "Preferált minőség",
+      "options": {
+        "flac": "FLAC (ha nem elérhető, MP3)",
+        "hi_res": "Hi-Res (Master; ha nem elérhető, FLAC/MP3)",
+        "mp3_128": "MP3 128 kbps (legjobb kompatibilitás)",
+        "mp3_320": "MP3 320 kbps"
+      }
+    }
+  },
+  "manifest": {
+    "description": "Streamelje a QQ Music katalógusát, lejátszási listáit, dalszövegeit és személyre szabott ajánlásait."
+  },
+  "setup_flow": {
+    "abort": {
+      "login_rejected": "A bejelentkezést elutasították a QQ Music alkalmazásban."
+    },
+    "scan_qr": {
+      "description": "Olvassa be a QR-kódot a QQ Music alkalmazással, és erősítse meg a bejelentkezést. Ha a kód lejár, automatikusan új jelenik meg.",
+      "progress_text": "Várakozás a beolvasásra és a megerősítésre az alkalmazásban...",
+      "title": "Bejelentkezés beolvasással"
+    }
+  }
+}

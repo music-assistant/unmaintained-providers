@@ -1,0 +1,25 @@
+{
+  "config_entries": {
+    "quality": {
+      "label": "Calidad preferida",
+      "options": {
+        "flac": "FLAC (con MP3 como alternativa)",
+        "hi_res": "Alta resolución (Master, con FLAC/MP3 como alternativa)",
+        "mp3_128": "MP3 a 128 kbps (máxima compatibilidad)"
+      }
+    }
+  },
+  "manifest": {
+    "description": "Reproduce el catálogo de QQ Music, listas de reproducción, letras y recomendaciones personalizadas."
+  },
+  "setup_flow": {
+    "abort": {
+      "login_rejected": "Se rechazó el inicio de sesión en la aplicación QQ Music."
+    },
+    "scan_qr": {
+      "description": "Escanea el código QR con la aplicación QQ Music y confirma el inicio de sesión. Se mostrará un código nuevo automáticamente si este caduca.",
+      "progress_text": "Esperando a que escanees el código y confirmes el inicio de sesión en la aplicación...",
+      "title": "Escanea para iniciar sesión"
+    }
+  }
+}

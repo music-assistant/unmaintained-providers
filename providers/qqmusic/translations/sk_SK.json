@@ -1,0 +1,25 @@
+{
+  "config_entries": {
+    "quality": {
+      "label": "Preferovaná kvalita",
+      "options": {
+        "flac": "FLAC (záložne MP3)",
+        "hi_res": "Hi-Res (Master, záložne FLAC/MP3)",
+        "mp3_128": "MP3 128kbps (najkompatibilnejšie)"
+      }
+    }
+  },
+  "manifest": {
+    "description": "Streamujte katalóg, zoznamy skladieb, texty piesní a personalizované odporúčania QQ Music."
+  },
+  "setup_flow": {
+    "abort": {
+      "login_rejected": "Prihlásenie bolo v aplikácii QQ Music zamietnuté."
+    },
+    "scan_qr": {
+      "description": "Naskenujte QR kód aplikáciou QQ Music a potvrďte prihlásenie. Po vypršaní platnosti sa automaticky zobrazí nový kód.",
+      "progress_text": "Čaká sa, kým kód naskenujete a potvrdíte v aplikácii...",
+      "title": "Prihláste sa naskenovaním"
+    }
+  }
+}

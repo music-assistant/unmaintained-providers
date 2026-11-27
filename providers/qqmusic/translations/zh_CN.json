@@ -1,0 +1,25 @@
+{
+  "config_entries": {
+    "quality": {
+      "label": "首选质量",
+      "options": {
+        "flac": "FLAC（备用格式为 MP3）",
+        "hi_res": "Hi-Res（Master，备用格式为 FLAC/MP3）",
+        "mp3_128": "MP3 128kbps（兼容性最佳）"
+      }
+    }
+  },
+  "manifest": {
+    "description": "在线收听QQ音乐的曲库、歌单、歌词以及个性化推荐。"
+  },
+  "setup_flow": {
+    "abort": {
+      "login_rejected": "在QQ音乐应用中登录失败。"
+    },
+    "scan_qr": {
+      "description": "使用QQ音乐应用扫描二维码并确认登录。如果二维码过期，系统会自动显示新的二维码。",
+      "progress_text": "正在等待您在应用中扫描并确认……",
+      "title": "扫描以登录"
+    }
+  }
+}

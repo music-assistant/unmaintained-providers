@@ -1,0 +1,26 @@
+{
+  "config_entries": {
+    "quality": {
+      "label": "Föredragen kvalitet",
+      "options": {
+        "flac": "FLAC (med MP3 som reserv)",
+        "hi_res": "Hi-Res (Master, med FLAC/MP3 som reserv)",
+        "mp3_128": "MP3 128 kbit/s (mest kompatibel)",
+        "mp3_320": "MP3 320 kbit/s"
+      }
+    }
+  },
+  "manifest": {
+    "description": "Strömma QQ Musics katalog, spellistor, sångtexter och personliga rekommendationer."
+  },
+  "setup_flow": {
+    "abort": {
+      "login_rejected": "Inloggningen nekades i appen QQ Music."
+    },
+    "scan_qr": {
+      "description": "Skanna QR-koden med appen QQ Music och bekräfta inloggningen. En ny kod visas automatiskt om den löper ut.",
+      "progress_text": "Väntar på att du ska skanna och bekräfta i appen …",
+      "title": "Skanna för att logga in"
+    }
+  }
+}

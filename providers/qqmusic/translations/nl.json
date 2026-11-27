@@ -1,0 +1,26 @@
+{
+  "config_entries": {
+    "quality": {
+      "label": "Gewenste audioformaat",
+      "options": {
+        "flac": "FLAC (terugvallen op MP3)",
+        "hi_res": "Hi-Res (Master, terugvallen op FLAC/MP3)",
+        "mp3_128": "MP3 128 kbps (meest compatibel)",
+        "mp3_320": "MP3 320 kbps"
+      }
+    }
+  },
+  "manifest": {
+    "description": "Stream de QQ Music-catalogus, afspeellijsten, songteksten en gepersonaliseerde aanbevelingen."
+  },
+  "setup_flow": {
+    "abort": {
+      "login_rejected": "De aanmelding is geweigerd in de QQ- of WeChat-app."
+    },
+    "scan_qr": {
+      "description": "Scan de QR-code met de QQ- of WeChat-app en bevestig de aanmelding. Als de code verloopt, wordt er automatisch een nieuwe weergegeven.",
+      "progress_text": "Wachten tot je dit in de app scant en bevestigt...",
+      "title": "Scan om in te loggen"
+    }
+  }
+}
