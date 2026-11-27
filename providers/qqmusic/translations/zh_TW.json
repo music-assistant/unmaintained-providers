@@ -1,0 +1,15 @@
+{
+  "config_entries": {
+    "quality": {
+      "label": "偏好品質",
+      "options": {
+        "flac": "FLAC (備用格式 MP3)",
+        "hi_res": "Hi-Res (母帶, 備用格式 FLAC/MP3)",
+        "mp3_128": "MP3 128kbps (高相容性)"
+      }
+    }
+  },
+  "manifest": {
+    "description": "串流播放 QQ 音樂的曲庫、播放列表、歌詞及個人化推薦內容。"
+  }
+}

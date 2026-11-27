@@ -1,0 +1,26 @@
+{
+  "config_entries": {
+    "quality": {
+      "label": "Bevorzugte Qualität",
+      "options": {
+        "flac": "FLAC (Ausweichformat: MP3)",
+        "hi_res": "HiRes (Master, Fallback auf FLAC/MP3)",
+        "mp3_128": "MP3 128 kbit/s (am kompatibelsten)",
+        "mp3_320": "MP3 320 kbit/s"
+      }
+    }
+  },
+  "manifest": {
+    "description": "Streame den QQ Music-Katalog, Wiedergabelisten, Songtexte und personalisierte Empfehlungen."
+  },
+  "setup_flow": {
+    "abort": {
+      "login_rejected": "Die Anmeldung in der QQ Music App wurde abgelehnt."
+    },
+    "scan_qr": {
+      "description": "Scanne den QR-Code mit der QQ Music App und bestätige die Anmeldung. Ein neuer Code wird automatisch angezeigt, falls der alte abläuft.",
+      "progress_text": "Wir warten darauf, dass du den Code scannst und in der App bestätigst...",
+      "title": "Zum Einloggen scannen"
+    }
+  }
+}

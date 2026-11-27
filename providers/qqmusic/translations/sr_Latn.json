@@ -1,0 +1,26 @@
+{
+  "config_entries": {
+    "quality": {
+      "label": "Željeni kvalitet",
+      "options": {
+        "flac": "FLAC (rezervna opcija MP3)",
+        "hi_res": "Hi-Res (Master, rezervna opcija FLAC/MP3)",
+        "mp3_128": "MP3 128kbps (najkompatibilnije)",
+        "mp3_320": "MP3 320 kbps"
+      }
+    }
+  },
+  "manifest": {
+    "description": "Strimujte QQ Music katalog, plejliste, tekstove pesama i personalizovane preporuke."
+  },
+  "setup_flow": {
+    "abort": {
+      "login_rejected": "Prijava je odbijena u aplikaciji QQ Music."
+    },
+    "scan_qr": {
+      "description": "Skenirajte QR kod pomoću aplikacije QQ Music i potvrdite prijavu. Novi kod se automatski prikazuje ako trenutni istekne.",
+      "progress_text": "Čeka se da skenirate i potvrdite u aplikaciji...",
+      "title": "Skeniranje za prijavu"
+    }
+  }
+}
